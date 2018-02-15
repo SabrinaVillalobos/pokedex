@@ -4,12 +4,15 @@ $('.submit').click( function pokeDex(e){
   var pokemon = $('input').val()
   name = $("#pkmName").val();
   rottomDex(name);
-  //hides please wait msg
+
+//hides please wait msg
 setInterval(function() {
   $("#myDiv").hide();
 },10000);
+
 //html that contains pkmn data
 $('.container').html('<div class="row text-center"><div class="col-sm-offset-3 col-sm-6 containerPkmn"><div id="myDiv">It may take a while to load, please wait <img class="pika" src="assets/img/pika.gif"></div><p id="pkName"></p><img id="sprite" src="" alt=""><p id="ID"></p><p id="type1"></p><p id="type2"></p><p id="height"></p><p id="weight"></p><p class="description"></p></div></div>');
+
 //code for auto play music and pause it clicking on icon
 var playing = false;
 var initDone = false;
