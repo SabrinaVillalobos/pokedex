@@ -7,7 +7,7 @@ $('.submit').click( function pokeDex(e){
 function rottomDex(name){
   $.ajax({
     method: "GET",
-    url: "https://cors-anywhere.herokuapp.com/http://pokeapi.salestock.net/api/v2/pokemon/" + name,
+    url: "http://pokeapi.salestock.net/api/v2/pokemon/" + name,
     success: function (response){
       console.log(response);
       dex(response);
@@ -20,7 +20,7 @@ function rottomDex(name){
 
 $.ajax({
   method: 'GET',
-  url: 'https://cors-anywhere.herokuapp.com/http://pokeapi.salestock.net/api/v2/pokemon-species/' + pokemon,
+  url: 'http://pokeapi.salestock.net/api/v2/pokemon-species/' + pokemon,
   success: function (response){
     console.log(response);
     $('.description').text(response.flavor_text_entries[1].flavor_text);
