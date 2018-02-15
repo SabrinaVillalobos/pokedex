@@ -1,0 +1,57 @@
+body{
+  background: url("../img/8-bit-wallpaper-8-bit-pokemon-awesome-wallpaper.png") no-repeat center center fixed;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input {
+  margin-top:1%;
+  border-radius: 6%;
+  height: 33px;
+  border: 1px solid #DBDBDB;
+}
+
+h1{
+  font-weight: bold;
+  color:#000;
+  font-family: 'VT323', monospace;
+  font-size:14vh;
+  display: inline-block;
+}
+
+.containerPkmn{
+  margin-top: 1%;
+  border-radius: 5%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  font-weight: bold;
+  color:#000;
+  background-color: #ffffff7a;
+  margin-bottom: 5%;
+}
+.fa-volume-up:before {
+  font-size: 7vh;
+  padding:0;
+}
+.fa-volume-off:before {
+  font-size: 7vh;
+  padding:0;
+}
+.pika{
+  height: 50px;
+  width:50px;
+}
+
+#pkName{
+  margin-top:2%;
+}
+
+.description {
+  padding-top: 1%;
+}
+
+.container-fluid{
+  padding-bottom: 2%;
+}
