@@ -3,24 +3,23 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <title>Pokédex</title>
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <link rel="icon" href="assets/img/Pokeball.png">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Pokedex</title>
 </head>
 <body>
+<div class="container-fluid text-center">
+    <div class="row">
+        <div class="col-sm-12">
+          <span><h1>Pokedex</h1><a href="#" id="music" style="color:black" class="pause"><i class="fa fa-volume-up fa-2x" aria-hidden="true"></i></a></span></div>
 
-<div>
   <input id="pkmName" type="text" value="" placeholder="Search by Name">
-  <button class="submit">Gotta Catch em all!</button>
-  <div class="result">
-    <p id="pkName"></p>
-    <img id="sprite" src="" alt="">
-    <p id="ID"></p>
-    <p id="type1"></p><p id="type2"></p>
-    <p id="height"></p>
-    <p id="weight"></p>
-    <p class="description"></p>
-  </div>
+  <button class="btn btn-primary submit">Gotta Catch em all!</button>
 </div>
-
+</div>
+<div class="container"></div>
 <!-- scripts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
