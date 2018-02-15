@@ -44,7 +44,7 @@ $(document).on('click', '.pause', function() {
 function rottomDex(name){
   $.ajax({
     method: "GET",
-    url: "http://pokeapi.salestock.net/api/v2/pokemon/" + name,
+    url: "https://pokeapi.salestock.net/api/v2/pokemon/" + name,
     success: function (response){
       console.log(response);
       dex(response);
@@ -57,7 +57,7 @@ function rottomDex(name){
 //getting descrption
 $.ajax({
   method: 'GET',
-  url: 'http://pokeapi.salestock.net/api/v2/pokemon-species/' + pokemon,
+  url: 'https://pokeapi.salestock.net/api/v2/pokemon-species/' + pokemon,
   success: function (response){
     console.log(response);
     $('.description').text(response.flavor_text_entries[1].flavor_text);
